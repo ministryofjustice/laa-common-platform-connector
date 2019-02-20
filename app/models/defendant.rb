@@ -1,0 +1,2 @@
+class Defendant < ApplicationRecord
+end
