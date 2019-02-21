@@ -35,6 +35,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'webmock'
   gem 'sinatra'
+  gem 'pry'
 end
 
 group :development do
