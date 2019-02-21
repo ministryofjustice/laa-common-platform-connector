@@ -1,0 +1,1177 @@
+{
+	"hearing": {
+		"id": "57da63d6-39e1-43da-8c9d-46ba49800825",
+		"jurisdictionType": "CROWN",
+		"reportingRestrictionReason": "Section 45 of the Youth Justice and Criminal Evidence Act 1999",
+		"courtCentre": {
+			"id": "3c86f4ea-02eb-4780-8335-cb241403b226",
+			"name": "Wood Green Crown Court",
+			"welshName": "Corte de madera de corona verde",
+			"roomId": "64b1d465-79b2-4f62-ad7d-9b47fb687568",
+			"roomName": "Court 12",
+			"welshRoomName": "Corte 12",
+			"address": {
+				"address1": "Woodall House",
+				"address2": "Lordship Lane",
+				"address3": "Wood Green",
+				"postcode": "N22 5LF"
+			}
+		},
+		"hearingLanguage": "ENGLISH",
+		"prosecutionCases": [
+			{
+				"id": "861aaa70-f142-469d-a7db-9af395347dd5",
+				"prosecutionCaseIdentifier": {
+					"prosecutionAuthorityId": "7d572092-ad2e-4f6b-bf2d-c6892b7bcc21",
+					"prosecutionAuthorityCode": "CPS-LONDON",
+					"caseURN": "05PP1000915"
+				},
+				"originatingOrganisation": "a",
+				"initiationCode": "C",
+				"caseStatus": "a",
+				"statementOfFacts": "Lorem ipsum dolor sit amet consectetuer adipiscing elit. Parturient posuere ante inceptos euismod purus et netus et leo fringilla nostra tincidunt. Lacus a curae lacus at risus tortor sapien nonummy. Senectus. Phasellus. Velit vivamus hendrerit habitant velit leo curae montes cursus montes adipiscing per facilisi nibh tempus.  Adipiscing urna amet dui hymenaeos litora vel odio lorem donec potenti torquent luctus est adipiscing dui. Nibh habitant dictumst justo augue tempor fames duis conubia. Donec id a pretium etiam elementum sagittis pretium parturient. Ipsum porta suspendisse vel auctor nisi posuere dis nostra ornare ultrices lacus ad nisl eget. Porttitor ut at litora malesuada adipiscing vestibulum pede morbi mauris mi senectus. Eros turpis eu pharetra aliquam sodales nostra et eu dis amet eu pellentesque pulvinar.",
+				"statementOfFactsWelsh": "Lorem ipsum ymchwil moron israddedig hydrogen. Perfformiad a osodwyd ar ddechrau'r llafur, chilli ecolegol a llysieuol a Phasellus ein datblygwyr. Pwll gofal Apple ar dymheredd o cyfanrif sapien chwerthin. Eld. Proffesiynoldeb. Biwro eisiau preswylwyr yn byw gofal llew mynydd yn yr awyr agored yn rhedeg drwy fynyddoedd amser nibh facilisi israddedig. Yn bwysig glannau priodas DUI prif ffrwd pot neu Lorem casineb nes thro cryf o israddedigion alar werth yr ymdrech. Sem trigolion aa propaganda priodasau gwaith cartref newyn hir. Till y pris y saethau a'r elfen phris y diwydiant. porth iawn i atal neu ei roi i'r awdur yn unig wthio ein chwaraewyr yn rhaid i lwybrau ar gyfer llynnoedd mordwyo. glannau nad ydynt israddedig malesuada yn oed milltir pêl-droed droed fynedfa. Absenoldeb colesterol cawell saethau rhai aelodau o'n plant pêl-droed pêl-droed gwthio gobennydd prif ffrwd.",
+				"breachProceedingsPending": false,
+				"appealProceedingsPending": true,
+				"defendants": [
+					{
+						"id": "0ddbc4a7-3c85-4bc3-bdd5-843817320b98",
+						"prosecutionCaseId": "861aaa70-f142-469d-a7db-9af395347dd5",
+						"numberOfPreviousConvictionsCited": 1,
+						"prosecutionAuthorityReference": "EJH123456",
+						"offences": [
+							{
+								"id": "4fe6e23d-e020-4053-8347-c0aa5a39af97",
+								"offenceDefinitionId": "0ddbc4a7-3c85-4bc3-bdd5-843817320b98",
+								"offenceCode": "CD98072",
+								"offenceTitle": "Racially / religiously aggravated wounding / grievous bodily harm",
+								"offenceTitleWelsh": "Colli / niwed corfforol difrifol yn gref / crefyddol",
+								"offenceLegislation": "Contrary to section 29(1)(b) and (2) of the Crime and Disorder Act 1998",
+								"offenceLegislationWelsh": "Yn groes i adran 29 (1) (b) a (2) o Ddeddf Trosedd ac Anhrefn 1998",
+								"modeOfTrial": "INDICTABLE",
+								"wording": "On 21/10/2018 at Euston Train Station, London used racially threatening or abusive or insulting words or behaviour causing fear of or provoking violence.  Used a weapon for common purpose; and demonstrating toward the victim based on the victim's membership or presumed membership of a religious group.",
+								"wordingWelsh": "Ar 21/10/2018 yn Orsaf Drenau Euston, defnyddiodd Llundain eiriau neu ymddygiad bygythiol neu gam-drin neu sarhaus hiliol gan achosi ofn neu ysgogi trais. Defnyddio arf at ddibenion cyffredin; ac yn dangos tuag at y dioddefwr yn seiliedig ar aelodaeth y dioddefwr neu aelodaeth tybiedig grŵp crefyddol.",
+								"startDate": "2018-10-21",
+								"arrestDate": "2018-10-23",
+								"chargeDate": "2018-10-24",
+								"dateOfInformation": "2018-10-24",
+								"orderIndex": 1,
+								"count": 1,
+								"convictionDate": "2019-01-17",
+								"indicatedPlea": {
+									"originatingHearingId": "04180ff1-99b0-40b7-9929-ca05bdc767d8",
+									"offenceId": "4fe6e23d-e020-4053-8347-c0aa5a39af97",
+									"indicatedPleaDate": "2018-10-24",
+									"indicatedPleaValue": "INDICATED_NOT_GUILTY",
+									"source": "IN_COURT",
+									"allocationDecision": {
+										"courtDecision": "INDICTABLE_ONLY_LINKED_TO_INDICTABLE",
+										"prosecutionRepresentation": "ELECT_TRIAL_ON_INDICTMENT",
+										"defendantRepresentation": "ELECT_TRIAL_ON_INDICTMENT",
+										"indicationOfSentence": "7 years"
+									}
+								},
+								"plea": {
+									"originatingHearingId": "db8d4f13-dd09-4491-aa5b-32b01ce4fdac",
+									"offenceId": "4fe6e23d-e020-4053-8347-c0aa5a39af97",
+									"pleaDate": "2018-11-11",
+									"pleaValue": "NOT_GUILTY"
+								},
+								"verdict": {
+									"originatingHearingId": "57da63d6-39e1-43da-8c9d-46ba49800825",
+									"offenceId": "4fe6e23d-e020-4053-8347-c0aa5a39af97",
+									"verdictDate": "2019-01-17",
+									"verdictType": {
+										"id": "96f8ed71-f2a6-47b9-a2a5-c18849dbd77e",
+										"sequence": 0,
+										"description": "Not guilty but guilty of lesser/alternative offence by judge's direction namely",
+										"category": "Guilty of a lesser offence",
+										"categoryType": "GUILTY"
+									},
+									"jurors": {
+										"numberOfJurors": 12,
+										"numberOfSplitJurors": 1,
+										"unanimous": false
+									},
+									"lesserOrAlternativeOffence": {
+										"offenceDefinitionId": "5c14b665-ec95-4049-ab64-c54a41317c17",
+										"offenceCode": "CD98073",
+										"offenceTitle": "Racially / religiously aggravated assault occasioning actual bodily harm",
+										"offenceTitleWelsh": "Ymosodiad gwaethygol / grefyddol sy'n achosi niwed corfforol gwirioneddol",
+										"offenceLegislation": "Contrary to section 29(1)(b) and (2) of the Crime and Disorder Act 1998",
+										"offenceLegislationWelsh": "Yn groes i adran 29 (1) (b) a (2) o Ddeddf Trosedd ac Anhrefn 1998"
+									}
+								},
+								"judicialResults": [
+									{
+										"orderedHearingId": "04180ff1-99b0-40b7-9929-ca05bdc767d8",
+										"label": "Remanded in custody",
+										"welshLabel": "Wedi'i remandio yn y ddalfa",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "4028",
+										"rank": 1,
+										"orderedDate": "2018-10-24",
+										"lastSharedDateTime": "2018-10-25 15:30:23",
+										"courtClerk": {
+											"userId": "6976f8ae-0fce-4644-a4e6-f4e39e9b18b8",
+											"firstName": "Jason",
+											"lastName": "Hodges"
+										},
+										"fourEyesApproval": {
+											"userId": "2da2a787-c3f4-43b3-8a11-1d632df21256",
+											"firstName": "Louise",
+											"lastName": "Ripley"
+										},
+										"approvedDate": "2018-10-25",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Remand basis",
+												"welshLabel": "Sail Remand",
+												"value": "Section 25 Criminal Justice & Public Order Act 1994",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Prison",
+												"welshLabel": "Carchar",
+												"value": "Guantanamo Bay detention camp - Youth section",
+												"promptSequence": 0.11
+											},
+											{
+												"label": "Bail exception",
+												"welshLabel": "Eithriad mechnïaeth",
+												"value": "Likely to offend",
+												"promptSequence": 0.12
+											}
+										]
+									},
+									{
+										"orderedHearingId": "04180ff1-99b0-40b7-9929-ca05bdc767d8",
+										"label": "Direction made under Section 45 of the Youth Justice and Criminal Evidence Act 1999",
+										"welshLabel": "Cyfeiriad a wnaed o dan Adran 45 Deddf Cyfiawnder Ieuenctid a Thystiolaeth Droseddol 1999",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "4510",
+										"rank": 1.1,
+										"orderedDate": "2018-10-24",
+										"lastSharedDateTime": "2018-10-25 15:30:23",
+										"courtClerk": {
+											"userId": "6976f8ae-0fce-4644-a4e6-f4e39e9b18b8",
+											"firstName": "Jason",
+											"lastName": "Hodges"
+										},
+										"fourEyesApproval": {
+											"userId": "2da2a787-c3f4-43b3-8a11-1d632df21256",
+											"firstName": "Louise",
+											"lastName": "Ripley"
+										},
+										"approvedDate": "2018-10-25",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Restricting publicity in respect of youth - Specify name",
+												"welshLabel": "Cyfyngu ar gyhoeddusrwydd mewn perthynas ag ieuenctid - Nodi enw",
+												"value": "Edward John Harrison",
+												"promptSequence": 0.1
+											}
+										]
+									},
+									{
+										"orderedHearingId": "04180ff1-99b0-40b7-9929-ca05bdc767d8",
+										"label": "Next hearing in Crown Court",
+										"welshLabel": "Y gwrandawiad nesaf yn Llys y Goron",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "1111",
+										"rank": 1.1,
+										"orderedDate": "2018-10-24",
+										"lastSharedDateTime": "2018-10-25 15:30:23",
+										"courtClerk": {
+											"userId": "6976f8ae-0fce-4644-a4e6-f4e39e9b18b8",
+											"firstName": "Jason",
+											"lastName": "Hodges"
+										},
+										"fourEyesApproval": {
+											"userId": "2da2a787-c3f4-43b3-8a11-1d632df21256",
+											"firstName": "Louise",
+											"lastName": "Ripley"
+										},
+										"approvedDate": "2018-10-25",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Date of Hearing",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "2018-11-11",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Time of Hearing",
+												"welshLabel": "Amser y Gwrandawiad",
+												"value": "10:30",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courtroom",
+												"welshLabel": "Ystafell y Llys",
+												"value": "Court 12",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courthouse name",
+												"welshLabel": "Enw'r llyswraig",
+												"value": "Wood Green Crown Court",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Hearing Type",
+												"welshLabel": "Math o Wrandawiad",
+												"value": "Trial Preparation",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Estimated Duration",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "40 minutes",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Remand Status",
+												"welshLabel": "Statws Remand",
+												"value": "In Custody",
+												"promptSequence": 0.1
+											}
+										]
+									},
+
+									{
+										"orderedHearingId": "db8d4f13-dd09-4491-aa5b-32b01ce4fdac",
+										"label": "Remitted to youth court for trial",
+										"welshLabel": "Wedi'i drosglwyddo i'r llys ieuenctid i'w dreialu",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "1111",
+										"rank": 1.1,
+										"orderedDate": "2018-11-11",
+										"lastSharedDateTime": "2018-11-12 13:30:23",
+										"courtClerk": {
+											"userId": "993d627b-86b7-4c1f-8364-a073faba2bd0",
+											"firstName": "Jenny",
+											"lastName": "Wilson"
+										},
+										"fourEyesApproval": {
+											"userId": "bd4a99ee-1259-42e1-a4c3-1527996906aa",
+											"firstName": "Jackie",
+											"lastName": "Short"
+										},
+										"approvedDate": "2018-11-12",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Reasons",
+												"welshLabel": "Rhesymau",
+												"value": "Youth restricted proceedings",
+												"promptSequence": 0.1
+											}
+										]
+									},
+									{
+										"orderedHearingId": "db8d4f13-dd09-4491-aa5b-32b01ce4fdac",
+										"label": "Next hearing in Crown Court",
+										"welshLabel": "Y gwrandawiad nesaf yn Llys y Goron",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "1111",
+										"rank": 1.1,
+										"orderedDate": "2018-11-11",
+										"lastSharedDateTime": "2018-11-12 15:30:23",
+										"courtClerk": {
+											"userId": "993d627b-86b7-4c1f-8364-a073faba2bd0",
+											"firstName": "Jenny",
+											"lastName": "Wilson"
+										},
+										"fourEyesApproval": {
+											"userId": "bd4a99ee-1259-42e1-a4c3-1527996906aa",
+											"firstName": "Jackie",
+											"lastName": "Short"
+										},
+										"approvedDate": "2018-11-12",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Date of Hearing",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "2019-01-17",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Time of Hearing",
+												"welshLabel": "Amser y Gwrandawiad",
+												"value": "10:30",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courtroom",
+												"welshLabel": "Ystafell y Llys",
+												"value": "Court 12",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courthouse name",
+												"welshLabel": "Enw'r llyswraig",
+												"value": "Wood Green Crown Court",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Hearing Type",
+												"welshLabel": "Math o Wrandawiad",
+												"value": "Trial",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Estimated Duration",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "900 minutes",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Remand Status",
+												"welshLabel": "Statws Remand",
+												"value": "In Custody",
+												"promptSequence": 0.1
+											}
+										]
+									},
+									{
+										"orderedHearingId": "57da63d6-39e1-43da-8c9d-46ba49800825",
+										"label": "Committed to young offender institution",
+										"welshLabel": "Wedi ymrwymo i sefydliad troseddwyr ifanc",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": true,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "1002",
+										"rank": 1.1,
+										"orderedDate": "2019-01-17",
+										"lastSharedDateTime": "2019-01-19 14:30:00",
+										"courtClerk": {
+											"userId": "993d627b-86b7-4c1f-8364-a073faba2bd0",
+											"firstName": "Jenny",
+											"lastName": "Wilson"
+										},
+										"fourEyesApproval": {
+											"userId": "bd4a99ee-1259-42e1-a4c3-1527996906aa",
+											"firstName": "Jackie",
+											"lastName": "Short"
+										},
+										"approvedDate": "2019-01-18",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "FINAL",
+										"judicialResultPrompts": [
+											{
+												"label": "Custodial Period",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "18 months",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Concurrent",
+												"welshLabel": "Amser y Gwrandawiad",
+												"value": "Yes",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Custody reasons",
+												"welshLabel": "Ystafell y Llys",
+												"value": "the offence(s) are so serious that only a custodial sentence can be justified",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Prison",
+												"welshLabel": "Carchar",
+												"value": "Guantanamo Bay detention camp - Youth section",
+												"promptSequence": 0.11
+											}
+										]
+									}
+								]
+							}
+						],
+						"associatedPersons": [
+							{
+								"person": {
+									"title": "MR",
+									"firstName": "John",
+									"middleName": "Michael",
+									"lastName": "Harrison",
+									"dateOfBirth": "1968-07-21",
+									"nationalityId": "2c2ef05b-6819-44ea-aa5d-c46247ed44c2",
+									"nationalityCode": "GBR",
+									"nationalityDescription": "United Kingdom",
+									"disabilityStatus": "blind",
+									"ethnicity": {
+										"observedEthnicityId": "ea2b54e1-33fe-45f8-93c5-89640bf0dc2e",
+										"observedEthnicityCode": "W1",
+										"observedEthnicityDescription": "British"
+									},
+									"gender": "MALE",
+									"documentationLanguageNeeds": "ENGLISH",
+									"nationalInsuranceNumber": "NZ324516B",
+									"occupation": "Postal workers, mail sorters, messengers and couriers",
+									"occupationCode": "92110",
+									"specificRequirements": "a",
+									"address": {
+										"address1": "32 Maricas Avenue",
+										"address2": "Harrow",
+										"address3": "Middlesex",
+										"address4": "London",
+										"postcode": "HA3 6JA"
+									},
+									"contact": {
+										"home": "020 8765 1256",
+										"work": "020 8876 3460",
+										"mobile": "07803 765111",
+										"primaryEmail": "john_harrison12@hotmail.com",
+										"secondaryEmail": "john_harrison@gmail.com"
+									}
+								},
+								"role": "Parent"
+							}
+						],
+						"defenceOrganisation": {
+							"name": "Harold Benjamin Solicitors",
+							"address": {
+								"address1": "Unit 3 Warner House",
+								"address2": "67-71 Lowland Road",
+								"address3": "Harrow",
+								"address4": "Middlesex",
+								"address5": "London",
+								"postcode": "HA1 3EQ"
+							},
+							"contact": {
+								"work": "020 8422 5678",
+								"primaryEmail": "admin@hbs.com",
+								"fax": "020 8422 5988"
+							}
+						},
+						"personDefendant": {
+							"personDetails": {
+								"title": "MR",
+								"firstName": "Edward",
+								"middleName": "John",
+								"lastName": "Harrison",
+								"dateOfBirth": "2002-01-10",
+								"nationalityId": "2c2ef05b-6819-44ea-aa5d-c46247ed44c2",
+								"nationalityCode": "GBR",
+								"nationalityDescription": "United Kingdom",
+								"additionalNationalityId": "743db214-2a0f-4192-9081-ad03e56126ea",
+								"additionalNationalityCode": "USA",
+								"additionalNationalityDescription": "United States Of America",
+								"ethnicity": {
+									"observedEthnicityId": "ea2b54e1-33fe-45f8-93c5-89640bf0dc2e",
+									"observedEthnicityCode": "W1",
+									"observedEthnicityDescription": "British",
+									"selfDefinedEthnicityId": "ea2b54e1-33fe-45f8-93c5-89640bf0dc2e",
+									"selfDefinedEthnicityCode": "W1",
+									"selfDefinedEthnicityDescription": "British"
+								},
+								"gender": "MALE",
+								"documentationLanguageNeeds": "ENGLISH",
+								"nationalInsuranceNumber": "NH195839C",
+								"occupation": "Rail Transport Operative",
+								"occupationCode": "82340",
+								"address": {
+									"address1": "Flat 4",
+									"address2": "17 Oldberry Road",
+									"address3": "Edgeware",
+									"address4": "Middlesex",
+									"address5": "London",
+									"postcode": "HA8 9DA"
+								},
+								"contact": {
+									"mobile": "07973 824240",
+									"primaryEmail": "teddy_harrison@hotmail.com"
+								},
+								"personMarkers": [
+									{
+										"id": "d889cf58-04ee-4c13-afa8-90b9c2185eff",
+										"markerTypeid": "b59dc89b-7bb7-4803-94f9-96051e61e618",
+										"markerTypeCode": "PYO01",
+										"markerTypeDescription": "Persistent Youth Offender"
+									}
+								]
+							},
+							"bailStatus": "IN_CUSTODY",
+							"custodyTimeLimit": "2019-01-20",
+							"perceivedBirthYear": 2002,
+							"driverNumber": "HARRI001101EJ8JR",
+							"driverLicenceCode": "PROVISIONAL",
+							"driverLicenseIssue": "52",
+							"arrestSummonsNumber": "MG25A12456",
+							"employerOrganisation": {
+								"name": "Transport For London",
+								"incorporationNumber": "a",
+								"registeredCharityNumber": "a",
+								"address": {
+									"address1": "Cockfosters depot",
+									"address2": "Bramley Road",
+									"address3": "London",
+									"postcode": "N14 4UT"
+								},
+								"contact": {
+									"work": "020 8766 3455",
+									"primaryEmail": "hr@tfl.gov.uk"
+								}
+							},
+							"employerPayrollReference": "HARRISON5699"
+						},
+						"aliases": [
+							{
+								"title": "MR",
+								"firstName": "Teddy",
+								"middleName": "Vincent",
+								"lastName": "Smith"
+							}
+						],
+						"judicialResults": [
+							{
+								"orderedHearingId": "5f7842d6-6ede-47e8-bcc8-b53d5961a768",
+								"label": "Total Imprisonment",
+								"welshLabel": "a",
+								"isAdjournmentResult": false,
+								"isFinancialResult": false,
+								"isConvictedResult": false,
+								"isAvailableForCourtExtract": true,
+								"amendmentDate": "2018-01-19",
+								"amendmentReason": "Administration Error",
+								"cjsCode": "1111",
+								"rank": 0.1,
+								"orderedDate": "2018-01-17",
+								"lastSharedDateTime": "2019-01-19 14:30:00",
+								"courtClerk": {
+									"userId": "993d627b-86b7-4c1f-8364-a073faba2bd0",
+									"firstName": "Jenny",
+									"lastName": "Wilson"
+								},
+								"fourEyesApproval": {
+									"userId": "56f7a57b-ea9c-41df-b47e-b7b65874b6d1",
+									"firstName": "Ian",
+									"lastName": "Jenkins"
+								},
+								"approvedDate": "2019-01-19",
+								"usergroups": [
+									"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+								],
+								"category": "FINAL",
+								"judicialResultPrompts": [
+									{
+										"label": "Total imprisonment period",
+										"welshLabel": "Cyfanswm cyfnod y carchar",
+										"value": "18 months",
+										"promptSequence": 0.1
+									}
+								]
+							}
+						],
+						"croNumber": "CRO123456",
+						"pncId": "PNC123456"
+					},
+					{
+						"id": "f2782738-05d2-4250-a986-91e221cd4510",
+						"prosecutionCaseId": "861aaa70-f142-469d-a7db-9af395347dd5",
+						"numberOfPreviousConvictionsCited": 3,
+						"prosecutionAuthorityReference": "JS786988",
+						"offences": [
+							{
+								"id": "81bf751a-e718-4ddb-bb72-d6acc09f8fcf",
+								"offenceDefinitionId": "0ddbc4a7-3c85-4bc3-bdd5-843817320b98",
+								"offenceCode": "CD98072",
+								"offenceTitle": "Racially / religiously aggravated wounding / grievous bodily harm",
+								"offenceTitleWelsh": "Colli / niwed corfforol difrifol yn gref / crefyddol",
+								"offenceLegislation": "Contrary to section 29(1)(b) and (2) of the Crime and Disorder Act 1998",
+								"offenceLegislationWelsh": "Yn groes i adran 29 (1) (b) a (2) o Ddeddf Trosedd ac Anhrefn 1998",
+								"modeOfTrial": "INDICTABLE",
+								"wording": "On 21/10/2018 at Euston Train Station, London used racially threatening or abusive or insulting words or behaviour causing fear of or provoking violence.  Used a weapon for common purpose; and demonstrating toward the victim based on the victim's membership or presumed membership of a religious group.",
+								"wordingWelsh": "Ar 21/10/2018 yn Orsaf Drenau Euston, defnyddiodd Llundain eiriau neu ymddygiad bygythiol neu gam-drin neu sarhaus hiliol gan achosi ofn neu ysgogi trais. Defnyddio arf at ddibenion cyffredin; ac yn dangos tuag at y dioddefwr yn seiliedig ar aelodaeth y dioddefwr neu aelodaeth tybiedig grŵp crefyddol.",
+								"startDate": "2018-10-21",
+								"arrestDate": "2018-10-23",
+								"chargeDate": "2018-10-24",
+								"dateOfInformation": "2018-10-24",
+								"orderIndex": 1,
+								"count": 1,
+								"aquittalDate": "2019-01-17",
+								"indicatedPlea": {
+									"originatingHearingId": "04180ff1-99b0-40b7-9929-ca05bdc767d8",
+									"offenceId": "4fe6e23d-e020-4053-8347-c0aa5a39af97",
+									"indicatedPleaDate": "2018-10-24",
+									"indicatedPleaValue": "INDICATED_NOT_GUILTY",
+									"source": "IN_COURT",
+									"allocationDecision": {
+										"courtDecision": "INDICTABLE_ONLY_LINKED_TO_INDICTABLE",
+										"prosecutionRepresentation": "ELECT_TRIAL_ON_INDICTMENT",
+										"defendantRepresentation": "ELECT_TRIAL_ON_INDICTMENT",
+										"indicationOfSentence": "9 years"
+									}
+								},
+								"plea": {
+									"originatingHearingId": "db8d4f13-dd09-4491-aa5b-32b01ce4fdac",
+									"offenceId": "81bf751a-e718-4ddb-bb72-d6acc09f8fcf",
+									"pleaDate": "2018-11-11",
+									"pleaValue": "NOT_GUILTY"
+								},
+								"verdict": {
+									"originatingHearingId": "57da63d6-39e1-43da-8c9d-46ba49800825",
+									"offenceId": "81bf751a-e718-4ddb-bb72-d6acc09f8fcf",
+									"verdictDate": "2019-01-17",
+									"verdictType": {
+										"id": "c0e14e6a-f96f-4f4c-a2af-a6255a11e5bf",
+										"sequence": 1,
+										"description": "Not Guilty",
+										"category": "Not Guilty",
+										"categoryType": "NOT_GUILTY"
+									},
+									"jurors": {
+										"numberOfJurors": 12,
+										"numberOfSplitJurors": 0,
+										"unanimous": true
+									}
+								},
+								"judicialResults": [
+									{
+										"orderedHearingId": "04180ff1-99b0-40b7-9929-ca05bdc767d8",
+										"label": "Remanded in custody",
+										"welshLabel": "Wedi'i remandio yn y ddalfa",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "4028",
+										"rank": 1,
+										"orderedDate": "2018-10-24",
+										"lastSharedDateTime": "2018-10-25 15:30:23",
+										"courtClerk": {
+											"userId": "6976f8ae-0fce-4644-a4e6-f4e39e9b18b8",
+											"firstName": "Jason",
+											"lastName": "Hodges"
+										},
+										"fourEyesApproval": {
+											"userId": "2da2a787-c3f4-43b3-8a11-1d632df21256",
+											"firstName": "Louise",
+											"lastName": "Ripley"
+										},
+										"approvedDate": "2018-10-25",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Remand basis",
+												"welshLabel": "Sail Remand",
+												"value": "Section 25 Criminal Justice & Public Order Act 1994",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Prison",
+												"welshLabel": "Carchar",
+												"value": "Guantanamo Bay detention camp - Youth section",
+												"promptSequence": 0.11
+											},
+											{
+												"label": "Bail exception",
+												"welshLabel": "Eithriad mechnïaeth",
+												"value": "Likely to offend",
+												"promptSequence": 0.12
+											}
+										]
+									},
+									{
+										"orderedHearingId": "04180ff1-99b0-40b7-9929-ca05bdc767d8",
+										"label": "Next hearing in Crown Court",
+										"welshLabel": "Y gwrandawiad nesaf yn Llys y Goron",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "1111",
+										"rank": 1.1,
+										"orderedDate": "2018-10-24",
+										"lastSharedDateTime": "2018-10-25 15:30:23",
+										"courtClerk": {
+											"userId": "6976f8ae-0fce-4644-a4e6-f4e39e9b18b8",
+											"firstName": "Jason",
+											"lastName": "Hodges"
+										},
+										"fourEyesApproval": {
+											"userId": "2da2a787-c3f4-43b3-8a11-1d632df21256",
+											"firstName": "Louise",
+											"lastName": "Ripley"
+										},
+										"approvedDate": "2018-10-25",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Date of Hearing",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "2018-11-11",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Time of Hearing",
+												"welshLabel": "Amser y Gwrandawiad",
+												"value": "10:30",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courtroom",
+												"welshLabel": "Ystafell y Llys",
+												"value": "Court 12",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courthouse name",
+												"welshLabel": "Enw'r llyswraig",
+												"value": "Wood Green Crown Court",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Hearing Type",
+												"welshLabel": "Math o Wrandawiad",
+												"value": "Trial Preparation",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Estimated Duration",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "40 minutes",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Remand Status",
+												"welshLabel": "Statws Remand",
+												"value": "In Custody",
+												"promptSequence": 0.1
+											}
+										]
+									},
+									{
+										"orderedHearingId": "db8d4f13-dd09-4491-aa5b-32b01ce4fdac",
+										"label": "Next hearing in Crown Court",
+										"welshLabel": "Y gwrandawiad nesaf yn Llys y Goron",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "1111",
+										"rank": 1.1,
+										"orderedDate": "2018-11-11",
+										"lastSharedDateTime": "2018-11-12 15:30:23",
+										"courtClerk": {
+											"userId": "993d627b-86b7-4c1f-8364-a073faba2bd0",
+											"firstName": "Jenny",
+											"lastName": "Wilson"
+										},
+										"fourEyesApproval": {
+											"userId": "bd4a99ee-1259-42e1-a4c3-1527996906aa",
+											"firstName": "Jackie",
+											"lastName": "Short"
+										},
+										"approvedDate": "2018-11-12",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "INTERMEDIARY",
+										"judicialResultPrompts": [
+											{
+												"label": "Date of Hearing",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "2019-01-17",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Time of Hearing",
+												"welshLabel": "Amser y Gwrandawiad",
+												"value": "10:30",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courtroom",
+												"welshLabel": "Ystafell y Llys",
+												"value": "Court 12",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Courthouse name",
+												"welshLabel": "Enw'r llyswraig",
+												"value": "Wood Green Crown Court",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Hearing Type",
+												"welshLabel": "Math o Wrandawiad",
+												"value": "Trial",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Estimated Duration",
+												"welshLabel": "Dyddiad y Gwrandawiad",
+												"value": "900 minutes",
+												"promptSequence": 0.1
+											},
+											{
+												"label": "Remand Status",
+												"welshLabel": "Statws Remand",
+												"value": "In Custody",
+												"promptSequence": 0.1
+											}
+										]
+									},
+									
+									{
+										"orderedHearingId": "57da63d6-39e1-43da-8c9d-46ba49800825",
+										"label": "Dismissed",
+										"welshLabel": "Diswyddo",
+										"isAdjournmentResult": false,
+										"isFinancialResult": false,
+										"isConvictedResult": false,
+										"isAvailableForCourtExtract": true,
+										"cjsCode": "2006",
+										"rank": 1.1,
+										"orderedDate": "2019-01-17",
+										"lastSharedDateTime": "2019-01-19 14:30:00",
+										"courtClerk": {
+											"userId": "993d627b-86b7-4c1f-8364-a073faba2bd0",
+											"firstName": "Jenny",
+											"lastName": "Wilson"
+										},
+										"fourEyesApproval": {
+											"userId": "bd4a99ee-1259-42e1-a4c3-1527996906aa",
+											"firstName": "Jackie",
+											"lastName": "Short"
+										},
+										"approvedDate": "2019-01-18",
+										"usergroups": [
+											"HMPS Admin", "Victim & Witness Support", "Probation", "Defence", "Prosecution"
+										],
+										"category": "FINAL"
+									}
+								]
+							}
+						],
+						"defenceOrganisation": {
+							"name": "Samuels & Ripley Solicitors",
+							"address": {
+								"address1": "West Buildings",
+								"address2": "33 Crosslands Way",
+								"address3": "East Finchley",
+								"address4": "London",
+								"postcode": "N2 3TY"
+							},
+							"contact": {
+								"work": "020 8766 1122",
+								"primaryEmail": "admin@srs.com",
+								"fax": "020 8766 1133"
+							}
+						},
+						"personDefendant": {
+							"personDetails": {
+								"title": "MR",
+								"firstName": "Jack",
+								"lastName": "Singh",
+								"dateOfBirth": "1998-08-10",
+								"nationalityId": "2c2ef05b-6819-44ea-aa5d-c46247ed44c2",
+								"nationalityCode": "GBR",
+								"nationalityDescription": "United Kingdom",
+								"ethnicity": {
+									"observedEthnicityId": "aca1cb40-e0ad-4919-83db-6237f940073d",
+									"observedEthnicityCode": "M3",
+									"observedEthnicityDescription": "White and Asian",
+									"selfDefinedEthnicityId": "aca1cb40-e0ad-4919-83db-6237f940073d",
+									"selfDefinedEthnicityCode": "W1",
+									"selfDefinedEthnicityDescription": "British"
+								},
+								"gender": "MALE",
+								"documentationLanguageNeeds": "ENGLISH",
+								"nationalInsuranceNumber": "NH195839C",
+								"occupation": "Rail Transport Operative",
+								"occupationCode": "82340",
+								"address": {
+									"address1": "Lowlands House",
+									"address2": "55 Lowlands Road",
+									"address3": "East Finchley",
+									"address4": "London",
+									"postcode": "N2 5HG"
+								},
+								"contact": {
+									"mobile": "07803 811811",
+									"primaryEmail": "jacksingh@hotmail.com"
+								},
+								"personMarkers": [
+									{
+										"id": "4d0b67b9-1b79-49e8-87ed-a44f49e478ef",
+										"markerTypeid": "ead1e512-6678-48fa-ba8e-59f3dca3dea3",
+										"markerTypeCode": "PAO01",
+										"markerTypeDescription": "Persistent Offender"
+									}
+								]
+							},
+							"bailStatus": "IN_CUSTODY",
+							"custodyTimeLimit": "2019-01-20",
+							"perceivedBirthYear": 2000,
+							"driverNumber": "SINGH001101J08JH",
+							"driverLicenceCode": "FULL",
+							"driverLicenseIssue": "52",
+							"arrestSummonsNumber": "MG25A11223344",
+							"employerOrganisation": {
+								"name": "Transport For London",
+								"incorporationNumber": "a",
+								"registeredCharityNumber": "a",
+								"address": {
+									"address1": "Cockfosters depot",
+									"address2": "Bramley Road",
+									"address3": "London",
+									"postcode": "N14 4UT"
+								},
+								"contact": {
+									"work": "020 8766 3455",
+									"primaryEmail": "hr@tfl.gov.uk"
+								}
+							},
+							"employerPayrollReference": "SINGHJ123456"
+						},
+						"croNumber": "CRO1112233",
+						"pncId": "PNC1223344"
+					}
+				],
+				"victims": [
+					{
+						"title": "MR",
+						"firstName": "Elaf",
+						"middleName": "Dayyaan",
+						"lastName": "Alvi",
+						"dateOfBirth": "1998-07-14",
+						"nationalityId": "2c2ef05b-6819-44ea-aa5d-c46247ed44c2",
+						"nationalityCode": "GBR",
+						"nationalityDescription": "United Kingdom",
+						"ethnicity": {
+							"observedEthnicityId": "52bf6ef3-6870-4420-8016-7fe84c73ddb8",
+							"observedEthnicityCode": "A2",
+							"observedEthnicityDescription": "Pakistani",
+							"selfDefinedEthnicityId": "52bf6ef3-6870-4420-8016-7fe84c73ddb8",
+							"selfDefinedEthnicityCode": "A2",
+							"selfDefinedEthnicityDescription": "Pakistani"
+						},
+						"gender": "MALE",
+						"interpreterLanguageNeeds": "Urdu",
+						"documentationLanguageNeeds": "ENGLISH",
+						"nationalInsuranceNumber": "NH345687B",
+						"occupation": "Rail Transport Operative",
+						"occupationCode": "82340",
+						"address": {
+							"address1": "18 Longrove Avenue",
+							"address2": "East Finchley",
+							"address3": "London",
+							"postcode": "N2 9QE"
+						},
+						"contact": {
+							"home": "020 833 7655",
+							"mobile": "07973 654540",
+							"primaryEmail": "alaf.alvi@hotmail.co.uk"
+						},
+						"personMarkers": [
+							{
+								"id": "71f74211-7a69-431d-bd25-533327882bc3",
+								"markerTypeid": "82ed06ec-c800-487a-be92-34c36f03fc71",
+								"markerTypeCode": "VIV001",
+								"markerTypeDescription": "Vulnerable Intimidated Victim"
+							}
+						]
+					}
+				],
+				"caseMarkers": [
+					{
+						"id": "81579386-627b-48c3-a260-f34eef2f2ed0",
+						"markerTypeid": "cf9c6099-e949-46a7-b5f7-144f6e0972ec",
+						"markerTypeCode": "RC_001",
+						"markerTypeDescription": "Religous Crime"
+					}
+				]
+			}
+		],
+		"courtHearing": {
+			"type": {
+				"id": "141c74ad-b87e-4756-8908-1642b1771ab5",
+				"description": "Trial"
+			},
+			"hearingDays": [
+				{
+					"sittingDay": "2019-01-14 10:00:00",
+					"listingSequence": 1,
+					"listedDurationMinutes": 360
+				},
+				{
+					"sittingDay": "2019-01-15 14:00:00",
+					"listingSequence": 1,
+					"listedDurationMinutes": 120
+				},
+				{
+					"sittingDay": "2019-01-16 14:00:00",
+					"listingSequence": 1,
+					"listedDurationMinutes": 120
+				},
+				{
+					"sittingDay": "2019-01-17 14:00:00",
+					"listingSequence": 1,
+					"listedDurationMinutes": 120
+				}
+			],
+			"judiciary": [
+				{
+					"judicialId": "847f4526-19e8-409c-a2de-89dc98e7959c",
+					"title": "HHJ",
+					"firstName": "Janet",
+					"middleName": "Megan",
+					"lastName": "Williams",
+					"judicialRoleType": "CIRCUIT_JUDGE",
+					"isDeputy": false
+				}
+			],
+			"prosecutionCounsels": [
+				{
+					"id": "95e69736-6fe1-4c23-8a3a-d483a169a00d",
+					"title": "QC",
+					"firstName": "David",
+					"middleName": "Kieran",
+					"lastName": "Walsh",
+					"status": "Leading QC",
+					"prosecutionCases": [
+						"861aaa70-f142-469d-a7db-9af395347dd5"
+					],
+					"attendanceDays": [
+						"2019-01-14", "2019-01-15", "2019-01-16", "2019-01-17"
+					]
+				}
+			],
+			"defenceCounsels": [
+				{
+					"id": "b92ed582-99ef-452c-b756-8ec9dc803548",
+					"title": "QC",
+					"firstName": "Jason",
+					"middleName": "Eric",
+					"lastName": "Doyle",
+					"status": "Leading QC",
+					"defendants": [
+						"0ddbc4a7-3c85-4bc3-bdd5-843817320b98"
+					],
+					"attendanceDays": [
+						"2019-01-14", "2019-01-17"
+					]
+				},
+				{
+					"id": "b92ed582-99ef-452c-b756-8ec9dc803548",
+					"title": "QC",
+					"firstName": "James",
+					"middleName": "Benjamin",
+					"lastName": "Simpson",
+					"status": "Junior QC",
+					"defendants": [
+						"0ddbc4a7-3c85-4bc3-bdd5-843817320b98"
+					],
+					"attendanceDays": [
+						"2019-01-14", "2019-01-15", "2019-01-16", "2019-01-17"
+					]
+				},
+				{
+					"id": "25b49db0-d9bd-4ca2-a138-6756d2ed803a",
+					"title": "QC",
+					"firstName": "Michael",
+					"middleName": "Gareth",
+					"lastName": "Williams",
+					"status": "Leading QC",
+					"defendants": [
+						"f2782738-05d2-4250-a986-91e221cd4510"
+					],
+					"attendanceDays": [
+						"2019-01-14", "2019-01-15", "2019-01-16", "2019-01-17"
+					]
+				}
+			],
+			"defendantAttendance": [
+				{
+					"defendantId": "0ddbc4a7-3c85-4bc3-bdd5-843817320b98",
+					"attendanceDays": [
+						{
+							"day": "2019-01-14",
+							"isInAttendance": true
+						},
+						{
+							"day": "2019-01-15",
+							"isInAttendance": true
+						},
+						{
+							"day": "2019-01-16",
+							"isInAttendance": false
+						},
+						{
+							"day": "2019-01-17",
+							"isInAttendance": true
+						}
+					]
+				},
+				{
+					"defendantId": "f2782738-05d2-4250-a986-91e221cd4510",
+					"attendanceDays": [
+						{
+							"day": "2019-01-14",
+							"isInAttendance": true
+						},
+						{
+							"day": "2019-01-15",
+							"isInAttendance": true
+						},
+						{
+							"day": "2019-01-16",
+							"isInAttendance": false
+						},
+						{
+							"day": "2019-01-17",
+							"isInAttendance": true
+						}
+					]
+				}
+			]
+		}
+	},
+	"sharedTime": "2019-01-18 16:30:00"
+}
