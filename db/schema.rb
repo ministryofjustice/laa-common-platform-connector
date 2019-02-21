@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 2019_02_21_095507) do
   end
 
   create_table "hearings", force: :cascade do |t|
-    t.string "name"
+    t.string "court_name"
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
