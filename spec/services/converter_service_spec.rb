@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe ConverterService do
   before :each do
-    uri = URI('https://api.common-platform.gov/hearings/1')
-    @openstruct =  JSON.parse(Net::HTTP.get(uri), object_class: OpenStruct)
+    url = 'https://api.common-platform.gov/hearings/1'
+    @openstruct = CommonPlatformRequestService.call(url)
   end
 
   describe 'conversions' do
@@ -35,6 +35,13 @@ RSpec.describe ConverterService do
       expect(@advocate.first_name).to eq('Jason')
       expect(@advocate.last_name).to eq('Doyle')
       expect(@advocate.status).to include('Leading QC')
+    end
+
+    it 'can create a hearing with connected defendants' do
+      # note this will be expanded once more is known about the domain.
+      hearing = ConverterService.map(@openstruct)
+      expect(hearing.defendants.first.first_name).to match("Edward")
+      expect(hearing.defendants.last.first_name).to match("Jack")
     end
   end
 end
