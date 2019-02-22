@@ -20,4 +20,10 @@ class ConverterService
                   legislation: openstruct.offenceLegislation,
                   wording: openstruct.wording)
   end
+
+  def self.advocate(openstruct)
+    Advocate.new(first_name: openstruct.firstName,
+                  last_name: openstruct.lastName,
+                  status: openstruct.status)
+  end
 end

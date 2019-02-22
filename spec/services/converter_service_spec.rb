@@ -4,7 +4,6 @@ RSpec.describe ConverterService do
   before :each do
     uri = URI('https://api.common-platform.gov/hearings/1')
     @openstruct =  JSON.parse(Net::HTTP.get(uri), object_class: OpenStruct)
-    binding.pry
   end
 
   describe 'conversions' do
@@ -28,6 +27,14 @@ RSpec.describe ConverterService do
       expect(@offence.title).to eq('Racially / religiously aggravated wounding / grievous bodily harm')
       expect(@offence.legislation).to eq('Contrary to section 29(1)(b) and (2) of the Crime and Disorder Act 1998')
       expect(@offence.wording).to include('On 21/10/2018 at Euston Train Station')
+    end
+
+    it 'can convert common platform data into an advocate' do
+      unconverted_advocate = @openstruct.hearing.courtHearing.defenceCounsels[0]
+      @advocate = ConverterService.advocate(unconverted_advocate)
+      expect(@advocate.first_name).to eq('Jason')
+      expect(@advocate.last_name).to eq('Doyle')
+      expect(@advocate.status).to include('Leading QC')
     end
   end
 end
