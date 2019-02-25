@@ -26,4 +26,16 @@ class ConverterService
                   last_name: openstruct.lastName,
                   status: openstruct.status)
   end
+
+  def self.map(openstruct)
+    hearing = hearing(openstruct)
+    converted_defendants = []
+    openstruct.hearing.prosecutionCases.each do |pcase|
+      pcase.defendants.each do |defendant|
+         converted_defendants << defendant(defendant)
+      end
+    end
+    hearing.defendants = converted_defendants
+    hearing
+  end
 end

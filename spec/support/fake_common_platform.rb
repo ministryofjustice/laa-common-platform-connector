@@ -1,9 +1,13 @@
-# spec/support/fake_github.rb
 require 'sinatra/base'
 
 class FakeCommonPlatform < Sinatra::Base
+
+  get '/' do
+    'fake common platform running'
+  end
+
   get '/hearings/:id' do
-    json_response 200, 'hearing.events.hearing-resulted-convictionAtTrial.json'
+    json_response(200, 'hearing.events.hearing-resulted-convictionAtTrial.json')
   end
 
   private
