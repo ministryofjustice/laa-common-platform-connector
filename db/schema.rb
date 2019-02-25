@@ -10,9 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_20_144104) do
+ActiveRecord::Schema.define(version: 2019_02_25_154043) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "raw_data", force: :cascade do |t|
+    t.string "common_platform_uuid"
+    t.jsonb "common_platform_json"
+    t.jsonb "converted_common_platform_json"
+  end
 
 end
