@@ -14,7 +14,9 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'webmock/rspec'
+require 'test_helpers'
 require_relative './support/fake_common_platform'
+
 
 WebMock.disable_net_connect!(allow_localhost: true)
 
