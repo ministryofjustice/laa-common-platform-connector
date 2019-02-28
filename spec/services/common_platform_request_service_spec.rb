@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe ConverterService do
+RSpec.describe CommonPlatformRequestService do
   let(:url){ 'https://api.common-platform.gov/hearings/1' }
 
   describe 'get data from mockservice' do

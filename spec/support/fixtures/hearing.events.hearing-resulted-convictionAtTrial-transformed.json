@@ -1,98 +1,87 @@
 {
-	"hearing": {
-		"id": "57da63d6-39e1-43da-8c9d-46ba49800825",
-		"courtCentre": {
-			"id": "3c86f4ea-02eb-4780-8335-cb241403b226",
-			"name": "Wood Green Crown Court"
-			}
-		},
-		"prosecutionCases": [
-			{
-				"id": "861aaa70-f142-469d-a7db-9af395347dd5",
-				"defendants": [
-					{
-						"id": "0ddbc4a7-3c85-4bc3-bdd5-843817320b98",
-						"offences": [
-							{
-								"id": "4fe6e23d-e020-4053-8347-c0aa5a39af97",
-								"offenceTitle": "Racially / religiously aggravated wounding / grievous bodily harm",
-								"offenceLegislation": "Contrary to section 29(1)(b) and (2) of the Crime and Disorder Act 1998",
-								"wording": "On 21/10/2018 at Euston Train Station, London used racially threatening or abusive or insulting words or behaviour causing fear of or provoking violence.  Used a weapon for common purpose; and demonstrating toward the victim based on the victim's membership or presumed membership of a religious group."
-							}
-						],
-						"defenceOrganisation": {
-							"name": "Harold Benjamin Solicitors"
-						},
-						"personDefendant": {
-							"personDetails": {
-								"firstName": "Edward",
-								"lastName": "Harrison",
-								"dateOfBirth": "2002-01-10"
-							}
-						}
-					},
-					{
-						"id": "f2782738-05d2-4250-a986-91e221cd4510"
-					}
-				]
-			}
-		],
-		"courtHearing": {
-			"type": {
-				"id": "141c74ad-b87e-4756-8908-1642b1771ab5",
-				"description": "Trial"
-			},
-			"hearingDays": [
-				{
-					"sittingDay": "2019-01-14 10:00:00"
-				},
-				{
-					"sittingDay": "2019-01-15 14:00:00"
-				},
-				{
-					"sittingDay": "2019-01-16 14:00:00"
-				},
-				{
-					"sittingDay": "2019-01-17 14:00:00"
-				}
-			],
-			"defenceCounsels": [
-				{
-					"id": "b92ed582-99ef-452c-b756-8ec9dc803548",
-					"firstName": "Jason",
-					"lastName": "Doyle",
-					"status": "Leading QC",
-					"defendants": [
-						"0ddbc4a7-3c85-4bc3-bdd5-843817320b98"
-					],
-					"attendanceDays": [
-						"2019-01-14", "2019-01-17"
-					]
-				},
-				{
-					"id": "b92ed582-99ef-452c-b756-8ec9dc803548",
-					"firstName": "James",
-					"lastName": "Simpson",
-					"status": "Junior QC",
-					"defendants": [
-						"0ddbc4a7-3c85-4bc3-bdd5-843817320b98"
-					],
-					"attendanceDays": [
-						"2019-01-14", "2019-01-15", "2019-01-16", "2019-01-17"
-					]
-				},
-				{
-					"id": "25b49db0-d9bd-4ca2-a138-6756d2ed803a",
-					"firstName": "Michael",
-					"lastName": "Williams",
-					"status": "Leading QC",
-					"defendants": [
-						"f2782738-05d2-4250-a986-91e221cd4510"
-					],
-					"attendanceDays": [
-						"2019-01-14", "2019-01-15", "2019-01-16", "2019-01-17"
-					]
-				}
-			]
-	}
+   "hearing_id":"57da63d6-39e1-43da-8c9d-46ba49800825",
+   "court_name":"Wood Green Crown Court",
+   "description":"Trial",
+   "hearing_dates":[
+      {
+         "sittingDay":"2019-01-14 10:00:00"
+      },
+      {
+         "sittingDay":"2019-01-15 14:00:00"
+      },
+      {
+         "sittingDay":"2019-01-16 14:00:00"
+      },
+      {
+         "sittingDay":"2019-01-17 14:00:00"
+      }
+   ],
+   "defendants":{
+      "0":{
+         "first_name":"Edward",
+         "last_name":"Harrison",
+         "date_of_birth":"Harold Benjamin Solicitors",
+         "offences":{
+            "0":{
+               "title":"Racially / religiously aggravated wounding / grievous bodily harm",
+               "legislation":"Contrary to section 29(1)(b) and (2) of the Crime and Disorder Act 1998",
+               "wording":"On 21/10/2018 at Euston Train Station, London used racially threatening or abusive or insulting words or behaviour causing fear of or provoking violence.  Used a weapon for common purpose; and demonstrating toward the victim based on the victim's membership or presumed membership of a religious group."
+            }
+         }
+      },
+      "1":{
+         "first_name":"Jack",
+         "last_name":"Singh",
+         "date_of_birth":"Samuels & Ripley Solicitors",
+         "offences":{
+            "0":{
+               "title":"Racially / religiously aggravated wounding / grievous bodily harm",
+               "legislation":"Contrary to section 29(1)(b) and (2) of the Crime and Disorder Act 1998",
+               "wording":"On 21/10/2018 at Euston Train Station, London used racially threatening or abusive or insulting words or behaviour causing fear of or provoking violence.  Used a weapon for common purpose; and demonstrating toward the victim based on the victim's membership or presumed membership of a religious group."
+            }
+         }
+      }
+   },
+   "advocates":{
+      "0":{
+         "first_name":"Jason",
+         "last_name":"Doyle",
+         "attendance_days":[
+            "2019-01-14",
+            "2019-01-17"
+         ],
+         "status":"Leading QC",
+         "defendants":[
+            "0ddbc4a7-3c85-4bc3-bdd5-843817320b98"
+         ]
+      },
+      "1":{
+         "first_name":"James",
+         "last_name":"Simpson",
+         "attendance_days":[
+            "2019-01-14",
+            "2019-01-15",
+            "2019-01-16",
+            "2019-01-17"
+         ],
+         "status":"Junior QC",
+         "defendants":[
+            "0ddbc4a7-3c85-4bc3-bdd5-843817320b98"
+         ]
+      },
+      "2":{
+         "first_name":"Michael",
+         "last_name":"Williams",
+         "attendance_days":[
+            "2019-01-14",
+            "2019-01-15",
+            "2019-01-16",
+            "2019-01-17"
+         ],
+         "status":"Leading QC",
+         "defendants":[
+            "f2782738-05d2-4250-a986-91e221cd4510"
+         ]
+      }
+   }
 }
