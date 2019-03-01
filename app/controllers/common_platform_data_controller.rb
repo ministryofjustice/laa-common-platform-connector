@@ -1,13 +1,9 @@
 class CommonPlatformDataController < ApplicationController
   include Response
 
-  def index
-    @common_platform_data = CommonPlatformData.all
-  end
-  
   def show
     @common_platform_datum = CommonPlatformData.find(params[:id])
-    json_response(@common_platform_datum)
+    json_response(@common_platform_datum.transformed_common_platform_json)
   end
 
   private
