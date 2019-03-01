@@ -7,9 +7,9 @@ class RefreshDataController < ApplicationController
                                                 transformed_common_platform_json: transformedData)
     if commonPlatformData.valid?
       commonPlatformData.save!
-      render plain: 'data updated'
+      render json: '{"status":"updated"}'
     else
-      render plain: 'an error occurd'
+      render json: '{"status":"an error occured"}'
     end
   end
 end

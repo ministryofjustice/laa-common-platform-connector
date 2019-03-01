@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 RSpec.describe 'Refresh data request spec' do
-  it 'can be parsed into an openstruct' do
+  it 'can update data from the API' do
     get('/refreshdata')
-    expect(response.body).to eq 'data updated'
+    expect(JSON.parse(response.body)['status']).to eq 'updated'
   end
 end
