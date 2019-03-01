@@ -1,15 +1,14 @@
 require 'rails_helper'
+require 'basic_transformer'
 
 RSpec.describe TransformationService do
+  let(:transformer) { instance_double("Transformer", :transform => true)}
   before :each do
-    raw_data_path = 'hearing.events.hearing-resulted-convictionAtTrial.json'
-    test_data_path = 'hearing.events.hearing-resulted-convictionAtTrial-transformed.json'
-    @data = read_test_json(raw_data_path)
-    @test_transformed_data = read_test_json(test_data_path)
+    setup_test_json
   end
 
-  it 'can convert common platform json' do
-    transformed_data = TransformationService.transform(@data)
-    expect(transformed_data).to eq(@test_transformed_data.to_json)
+  it 'calls a transform' do
+    expect(transformer).to receive(:transform)
+    TransformationService.new(transformer).transform(@data)
   end
 end
