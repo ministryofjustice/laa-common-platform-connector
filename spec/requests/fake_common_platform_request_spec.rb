@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'ostruct'
 
 RSpec.describe 'Fake Common Platform Requedst' do
   it 'queries hearings contributors on Common Platform' do
