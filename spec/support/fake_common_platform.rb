@@ -6,7 +6,7 @@ class FakeCommonPlatform < Sinatra::Base
     'fake common platform running'
   end
 
-  get '/hearings/:id' do
+  get '/hearing/:id' do
     json_response(200, 'hearing.events.hearing-resulted-convictionAtTrial.json')
   end
 
